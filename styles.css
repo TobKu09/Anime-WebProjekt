@@ -13,6 +13,12 @@ p{
     font-style: italic;
     font-weight: bold;
 }
-#fünfani{
-    
-}
+.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .left, .right {
+        width: 48%;
+    }
