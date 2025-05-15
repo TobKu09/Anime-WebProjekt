@@ -13,12 +13,23 @@ p{
     font-style: italic;
     font-weight: bold;
 }
-.container {
+.container_anime {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
     }
 
-    .left, .right {
+    .left_anime, .right_anime {
         width: 48%;
     }
+
+.container_manga {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .left_manga, .right_manga {
+        width: 48%;
+    }
+
