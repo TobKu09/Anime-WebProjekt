@@ -21,7 +21,7 @@ p{
     }
 
     .left_anime, .right_anime {
-        width: 48%;
+        width: 40%;
     }
 
 .container_manga {
@@ -31,6 +31,6 @@ p{
     }
 
     .left_manga, .right_manga {
-        width: 48%;
+        width: 40%;
     }
 
