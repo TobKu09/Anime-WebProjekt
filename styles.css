@@ -18,19 +18,18 @@ p{
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-    }
+}
 
     .left_anime, .right_anime {
-        width: 40%;
-    }
+        width: 35%;
+}
 
 .container_manga {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-    }
+}
 
-    .left_manga, .right_manga {
-        width: 40%;
-    }
-
+.left_manga, .right_manga {
+        width: 35%;
+}
