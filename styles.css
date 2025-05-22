@@ -38,4 +38,13 @@ p{
     color: black; 
     font-style: normal;
     font-weight: 100;
+    text-align: left;
+}
+.tobiasP2{
+    font-size: 110%; 
+    color: black; 
+    font-style: normal;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: center;
 }
