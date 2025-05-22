@@ -33,3 +33,9 @@ p{
 .left_manga, .right_manga {
         width: 35%;
 }
+.tobiasP{
+    font-size: 120%; 
+    color: black; 
+    font-style: normal;
+    font-weight: 100;
+}
