@@ -4,133 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
   <title>Unterseite Felix_Anime</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: rgb(255, 246, 233);
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: rgb(5, 201, 5);
-      color: black;
-      font-size: 30px;
-      padding: 20px 0;
-      text-align: center;
-    }
-    .timeline {
-      position: relative;
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 10px;
-    }
-    .timeline::after {
-      content: '';
-      position: absolute;
-      width: 6px;
-      background-color: #3498db;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      margin-left: -3px;
-    }
-    .container {
-      padding: 20px 30px;
-      position: relative;
-      background-color: inherit;
-      width: 50%;
-    }
-    .left {
-      left: -2%;
-    }
-    .right {
-      left: 50%;
-    }
-    .container::after {
-      content: '';
-      position: absolute;
-      width: 25px;
-      height: 25px;
-      right: -17px;
-      background-color: white;
-      border: 4px solid #3498db;
-      top: 15px;
-      border-radius: 50%;
-      z-index: 1;       /*bedeutet auf welcher Ebene etwas im Vordergrund gegenüber anderen Elementen sein soll*/
-    }
-    .right::after {
-      left: -16px;
-    }
-    .content {
-      padding: 20px;
-      background-color: white;
-      position: relative;
-      border-radius: 6px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    @media screen and (max-width: 768px) {
-      .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-      }
-      .timeline::after {
-        left: 31px;
-      }
-      .right {
-        left: 0%;
-      }
-      .right::after {
-        left: 15px;
-      }
-    }
-    a:hover{
-        text-decoration: underline;
-    }
-  </style>
 </head>
-<body>
-  <header>
+<body class="body_anime">
+  <header class="header_anime">
     <h1>Geschichte der Anime</h1>
-    <p style="font-style: italic;">Eine kurze Zeitreise durch die Entwicklung von Anime</p>
+    <p style="font-style: italic;" class="unterüberschrift_anime">Eine kurze Zeitreise durch die Entwicklung von Anime</p>
   </header>
 
   <div class="timeline">
     <div class="container left">
       <div class="content">
         <h2>1910–1940</h2>
-        <p>Die Anfänge japanischer Animation mit Filmen wie "Namakura Gatana" und dem Einfluss westlicher Werke.</p>
+        <p class="anime_schrift">Die Anfänge japanischer Animation mit Filmen wie "Namakura Gatana" und dem Einfluss westlicher Werke.</p>
       </div>
     </div>
     <div class="container right">
       <div class="content">
         <h2>1950–1960</h2>
-        <p>"Astro Boy" von Osamu Tezuka revolutioniert TV-Anime. Erfindung des typischen Anime-Stils durch diesen.</p>
+        <p class="anime_schrift">"Astro Boy" von Osamu Tezuka revolutioniert TV-Anime. Erfindung des typischen Anime-Stils durch diesen.</p>
       </div>
     </div>
     <div class="container left">
       <div class="content">
         <h2>1970–1980</h2>
-        <p>Genres wie Mecha, Magical Girl & Ghibli entstehen. Klassiker wie "Mobile Suit Gundam" und "Nausicaä" prägen das Jahrzehnt.</p>
+        <p class="anime_schrift">Genres wie Mecha, Magical Girl & Ghibli entstehen. Klassiker wie "Mobile Suit Gundam" und "Nausicaä" prägen das Jahrzehnt.</p>
       </div>
     </div>
     <div class="container right">
       <div class="content">
         <h2>1990er</h2>
-        <p>Anime wie "Sailor Moon" & "Pokémon" machen Anime global bekannt. Erste große Welle internationaler Fans.</p>
+        <p class="anime_schrift">Anime wie "Sailor Moon" & "Pokémon" machen Anime global bekannt. Erste große Welle internationaler Fans.</p>
       </div>
     </div>
     <div class="container left">
       <div class="content">
         <h2>2000–2010</h2>
-        <p>Digitalisierung & Streaming verändern die Produktion und allgemein die Anime Welt. Beliebte Titel wie "Naruto" und "Death Note" erscheinen.</p>
+        <p class="anime_schrift">Digitalisierung & Streaming verändern die Produktion und allgemein die Anime Welt. Beliebte Titel wie "Naruto" und "Death Note" erscheinen.</p>
       </div>
     </div>
     <div class="container right">
       <div class="content">
         <h2>2020er</h2>
-        <p>Anime wird weltweit zu Mainstream. Netflix & Co. investieren stark in Anime. Blockbuster wie "Demon Slayer" setzen neue Maßstäbe für Animes.</p>
+        <p class="anime_schrift">Anime wird weltweit zu Mainstream. Netflix & Co. investieren stark in Anime. Blockbuster wie "Demon Slayer" setzen neue Maßstäbe für Animes.</p>
       </div>
     </div>
   </div>
