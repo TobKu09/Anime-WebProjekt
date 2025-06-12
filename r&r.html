@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rausch & Rauch – High Life, Low Risk</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+.header {
+  background-color: #09dfd8;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #000000;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #09dfd8;
+  color: white;
+}
+
+.hero .slogan {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: black;
+}
+.hero .sub{
+    color: black;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #00ffae;
+  color: #111;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #00cc8a;
+}
+
+.produkte {
+  padding: 2rem;
+  background-color: white;
+}
+
+.produkte h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.produkt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.produkt-card {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.produkt-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produkt-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.produkt-card h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.produkt-card span {
+  font-weight: bold;
+  color: #00aa88;
+}
+
+.standorte {
+  background-color: #efefef;
+  padding: 2rem;
+  text-align: center;
+}
+
+.standorte h2 {
+  margin-bottom: 1rem;
+}
+
+.standorte ul {
+  list-style: none;
+  padding: 0;
+}
+
+.standorte li {
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+</style>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#">Startseite</a>
+      <a href="#produkte">Produkte</a>
+      <a href="#standorte">Standorte</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Rausch & Rauch</h1>
+      <p class="slogan">High Life – Low Risk</p>
+      <p class="sub">Das Gesetz nickt mit.</p>
+      <a href="#produkte" class="btn">Zum Sortiment</a>
+    </section>
+
+    <section id="produkte" class="produkte">
+      <h2>Unser beliebtestes Sortiment</h2>
+      <div class="produkt-grid">
+        <div class="produkt-card">
+          
+          <h3>Steirerbier</h3>
+          <p>Frisch. Lokal. Ehrlich.</p>
+          <span>2,90 €</span>
+        </div>
+        <div class="produkt-card">
+          
+          <h3>Weißwein Classic</h3>
+          <p>Steirischer Genuss, 12,5 % vol.</p>
+          <span>5,90 €</span>
+        </div>
+        <div class="produkt-card">
+          
+          <h3>ZYN Nikotin Pouches</h3>
+          <p>Tabakfrei, stark & diskret</p>
+          <span>4,90 €</span>
+        </div>
+        <div class="produkt-card">
+          
+          <h3>Rausch & Rauch Hoodie</h3>
+          <p>Schwarz, Unisex, mit Logo</p>
+          <span>39,90 €</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="standorte" class="standorte">
+      <h2>Unsere Standorte</h2>
+      <ul>
+        <li><strong>Tabak-Trafik:</strong>HTL-Bulme, Gösting, Graz</li>
+        <li><strong>Getränke-Store:</strong>HAK-Grazbachgasse, Graz</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Rausch & Rauch – Genuss mit Verantwortung.</p>
+  </footer>
+</body>
+</html>
